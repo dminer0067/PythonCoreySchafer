@@ -12,3 +12,10 @@ for n in sqr:
 print(sqlist)
 
 
+def fun():
+    a = input("Insert value of A : ")
+    return a
+
+x = fun()
+print(x)
+
