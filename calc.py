@@ -2,7 +2,10 @@ def add(x,y):
     return x + y
 
 def subtract(x,y):
-    return x - y
+    if x > y:
+        print(x - y)
+    else:
+        print(y-x)
 
 def multiply(x,y):
     return x * y
